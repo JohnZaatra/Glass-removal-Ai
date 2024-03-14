@@ -1,8 +1,8 @@
-**Glasses removal with the help of AI**
+## **Glasses removal with the help of AI**
 
 Overview
 
-Welcome to the Eye Health Analysis Project, developed for Barzilai Hospital. The project focuses on analyzing eye health data to enhance patient care and medical education. Initially, the project aims to utilize tabular data and dense neural networks for feature extraction. Future enhancements include incorporating more complex models, such as CNNs, to further improve analysis and outcomes.Additionally, the project integrates eye scan images to build a reliable AI model for predicting surgical outcomes and the preservation period of the results.
+Welcome to the Eye Health Analysis Project, developed for Barzilai Hospital. The project focuses on analyzing eye health data to enhance patient care and medical education. Initially, the project aims to utilize tabular data and dense neural networks for feature extraction. Future enhancements include incorporating more complex models, such as CNNs, to further improve analysis and outcomes. Additionally, the project integrates eye scan images to build a reliable AI model for predicting surgical outcomes and the preservation period of the results.
 
 About Barzilai Hospital
 

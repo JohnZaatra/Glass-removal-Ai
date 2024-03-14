@@ -1,4 +1,4 @@
-Glasses removal with the help of AI
+**Glasses removal with the help of AI**
 
 Overview
 

@@ -17,5 +17,6 @@ The project utilizes both tabular data and eye scan images sourced from Barzilai
 The project employs dense neural networks for feature extraction and analysis of tabular data. For image data analysis, convolutional neural networks (CNNs) will be utilized to extract patterns and hierarchical features directly from raw pixel data. By effectively integrating tabular data with image data, the project aims to enhance predictive modeling and decision-making in eye care.
 
 **Solution**
-![Screenshot](presentation-and-work/Screenshot\ 2024-12-08\ at\ 14.16.25.png)
+![Solution](https://github.com/JohnZaatra/Glass-removal-Ai/blob/87474b1b5271abed5008326874b2785a7dca2024/presentation-and-work/Solution.png)
+
 

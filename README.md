@@ -15,10 +15,3 @@ The project utilizes both tabular data and eye scan images sourced from Barzilai
 **Methods Used**
 
 The project employs dense neural networks for feature extraction and analysis of tabular data. For image data analysis, convolutional neural networks (CNNs) will be utilized to extract patterns and hierarchical features directly from raw pixel data. By effectively integrating tabular data with image data, the project aims to enhance predictive modeling and decision-making in eye care.
-
-**Future Enhancements**
-
-Complex Model Development: Incorporating more layers and advanced architectures for feature extraction and analysis.
-CNN Implementation: Utilizing convolutional neural networks for image data analysis, leveraging patterns and hierarchical features directly from raw pixel data.
-Integration of Tabular and Image Data: Developing techniques for the effective integration of tabular data and eye scan images, enabling comprehensive analysis and predictive modeling.
-Data Augmentation and Regularization: Implementing techniques to prevent overfitting and enhance model generalization.

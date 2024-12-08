@@ -1,8 +1,8 @@
 # Glass Removal by Laser Surgery - Predicting Cataract Surgery Success
 
-This repository contains the final project for my Bachelor's degree in **Information and Software Systems Engineering** at **Ben Gurion University**, Negev, Israel. The project is focused on **predicting the success of cataract surgery** through the use of advanced machine learning techniques, combining **tabular patient data** and **eye scan images** to predict post-surgery uncorrected visual acuity.
+This repository contains the final project for my Bachelor's degree in **Information and Software Systems Engineering** at **Ben Gurion University**, Negev, Israel. The project is focused on **predicting the success of laser surgery** through the use of advanced machine learning techniques, combining **tabular patient data** and **eye scan images** to predict post-surgery uncorrected visual acuity.
 
-The model developed as part of this project serves as a **decision support tool for ophthalmologists**, providing them with reliable insights into the chances of surgery success, improving decision-making, and ultimately enhancing patient outcomes.
+The model developed as part of this project serves as a **decision support tool for Barzilai Hospital located in Israel and founded in Ashkelon**, providing them with reliable insights into the chances of surgery success, improving decision-making, and ultimately enhancing patient outcomes.
 
 **About Barzilai Hospital**
 
@@ -12,7 +12,7 @@ Barzilai Hospital, founded in 1961, is a renowned medical facility in Ashkelon, 
 
 ## 🚀 **Project Overview**
 
-The project aims to **predict the likelihood of a successful cataract surgery** by evaluating the **post-surgery visual acuity** of patients. This is achieved through a combination of **tabular data** (patient and health-related information) and **eye scan images** (pre-surgery corneal scans).
+The project aims to **predict the likelihood of a successful laser surgery** by evaluating the **post-surgery visual acuity** of patients. This is achieved through a combination of **tabular data** (patient and health-related information about the eye) and **eye scan images** (pre-surgery corneal scans).
 
 ### **Key Features:**
 
@@ -28,7 +28,7 @@ The project aims to **predict the likelihood of a successful cataract surgery** 
 
 ## 🎯 **Problem Statement**
 
-The primary goal of the project was to **predict the success of cataract surgery** by analyzing two important data types:
+The primary goal of the project was to **predict the success of laser surgery** by analyzing two important data types:
 1. **Tabular data**: Medical records and demographic information.
 2. **Eye scan images**: Pre-surgery corneal images of patients.
 
@@ -91,35 +91,28 @@ The model went through several **iterations** to fine-tune its performance. Belo
 - **Tabular Data (MLP)**: After experimenting with different architectures and hyperparameters, the model showed improved performance, with a significant reduction in overfitting and an increase in the validation accuracy.
   
 - **Image Data (CNN)**: 
-   - Initially, the model showed **93.83% training accuracy** but required further fine-tuning of architectures and hyperparameters.
-   - After hyperparameter tuning, accuracy improved to **89.44% on the training set**, with significant improvements in validation performance as well.
+   - Initial results indicated the need for further fine-tuning of architectures and hyperparameters to improve performance.
+   - After these adjustments, the model showed better accuracy and improved generalization to new data.
   
 - **Combined Model**: 
    - Integration of the tabular and image data led to significant improvements in the final prediction. The combined model outperformed the individual models in terms of both accuracy and generalization.
-
-- **Masked Autoencoder**: Used for pretraining, further enhancing the performance of all models.
-
-## 💡 How to Contribute
-
-I welcome contributions to this project! If you have ideas for improvements, optimizations, or new features, feel free to fork the repository and submit a pull request.
-
-Please follow the **coding standards**, and include **tests** where applicable. Contributions are highly encouraged to help improve the model’s accuracy, generalization, or introduce new features.
 
 ---
 
 ## 🎓 Acknowledgments
 
-This project is part of a broader exploration into **Human Activity Recognition** and **medical prediction** using machine learning, applying **state-of-the-art techniques** in machine learning to a real-world healthcare problem.
+This project is part of a broader exploration into **medical prediction using machine learning**, focusing on the application of advanced techniques to predict the success of cataract surgery.
 
 Special thanks to:
-- The **original dataset creators** for making the data publicly available.
+- **Dr. Gilad Katz**, my moderator, for his unwavering support and guidance throughout the year. His expertise and insights were invaluable.
+- The **Brazilian Hospital** for making the data available to us.
 - The **academic community** for their invaluable research contributions to time-series classification and medical prediction.
 
 ---
 
 ## 🔮 Conclusion
 
-This project illustrates the **powerful intersection of machine learning** and **wearable technology** in the field of **Human Activity Recognition**. By exploring **multiple models**, **optimizing their performance**, and experimenting with **novel techniques** such as masked autoencoders, this project demonstrates a deep understanding of **time-series data** and **model refinement**.
+This project illustrates the **powerful intersection of machine learning** and **healthcare technology** in predicting the success of cataract surgery. By exploring **multiple models**, **optimizing their performance**, and experimenting with **novel techniques**, this project demonstrates a deep understanding of **data integration** and **model refinement**.
 
 The skills developed throughout this project are directly applicable to real-world challenges in **data science**, **machine learning**, and **healthcare technology**. I am confident that these experiences will be pivotal in tackling future challenges and developing solutions that improve patient outcomes.
 
